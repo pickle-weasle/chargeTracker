@@ -23,7 +23,9 @@
   - no mention of EV charge curve, max rate, current battery etc so use station flat rate
   - assume tax included
 - no input from actual EV battery or charging station - relies on user to stop and start accurately
-- Single user, no auth, seeded data, will use embedded H2 file backed for simplicity & resilience 
+- Single user, no auth, seeded data, will use embedded H2 file backed for simplicity & resilience
+- including data to record price and charging speed in session data, not required by spec but straightforward to add from start
+  - This doesn't however allow for rate & speed changing during charge, price and charge rates are set when charging begins tracking
 
 
 ## Features
