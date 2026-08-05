@@ -26,7 +26,7 @@
 - Single user, no auth, seeded data, will use embedded H2 file backed for simplicity & resilience
 - including data to record price and charging speed in session data, not required by spec but straightforward to add from start
   - This doesn't however allow for rate & speed changing during charge, price and charge rates are set when charging begins tracking
-
+ 
 
 ## Features
 - [ ] list of stations
@@ -37,6 +37,9 @@
 - [ ] potentially 3 views, station list, current session, session history
 - [ ] dateTime picker for finetuning/adjusting charge start/stop times
 
+## Features out of scope
+- users location not taken into account, but a future improvement could order the stations by proximity
+- users could use Google Maps integration to view stations close to them
 
 ## Considerations
 - start-end spanning multiple bands

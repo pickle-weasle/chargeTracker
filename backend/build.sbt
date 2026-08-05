@@ -11,6 +11,7 @@ libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.2" % Test
 libraryDependencies += jdbc
 libraryDependencies += "com.h2database" % "h2" % "2.4.240"
+libraryDependencies += "org.playframework.anorm" %% "anorm" % "3.1.0"
 libraryDependencies += evolutions
 
 // Adds additional packages into Twirl
