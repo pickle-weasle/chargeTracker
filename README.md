@@ -1,3 +1,10 @@
+# A note on scope
+The features, notes, considerations below were written before I had received word on what the time frame would be. I began spec-ing out something considerably more complex given the allotted time.
+
+As a result, this readme is no longer accurate to what I implemented. I will update it later this evening to reflect actual final code and what I was unable to cover/include  
+
+---
+
 # Charge Tracker WIP
 ### An EV charging session tracker 
 
