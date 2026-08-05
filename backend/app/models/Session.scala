@@ -13,8 +13,8 @@ case class Session(
     peakRate: BigDecimal,
     offPeakRate: BigDecimal,
     chargingSpeed: Double,
-    endTime: Option[Instant], // created first without, updated later
-    cost: Option[BigDecimal] // calculated when tracking session ends
+    endTime: Option[Instant] = None, // created first without, updated later
+    cost: Option[BigDecimal] = None // calculated when tracking session ends
 )
 
 object Session {

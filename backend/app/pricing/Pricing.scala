@@ -3,8 +3,8 @@ package pricing
 import java.time.{Duration, Instant, LocalDate, LocalTime, ZoneId, ZonedDateTime}
 
 object Pricing {
-  private val peakPricePerUnit: BigDecimal = BigDecimal("0.005")
-  private val offPeakPricePerUnit: BigDecimal = BigDecimal("0.004")
+  val peakPricePerUnit: BigDecimal = BigDecimal("0.005")
+  val offPeakPricePerUnit: BigDecimal = BigDecimal("0.004")
   private val milisInHour = 3600000
   private val zoneId: ZoneId = ZoneId.of("UTC") // using single zone for simplicity
 

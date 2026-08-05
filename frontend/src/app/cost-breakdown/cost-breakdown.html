@@ -1,0 +1,15 @@
+<div class="result-card">
+  <h3>Most recent charge</h3>
+  <div class="row">
+    <span>Off-peak</span>
+    <span>{{ result.offPeakUnits | number:'1.2-2' }} kWh - {{ result.offPeakCost | currency:'EUR' }}</span>
+  </div>
+  <div class="row">
+    <span>Peak</span>
+    <span>{{ result.peakUnits | number:'1.2-2' }} kWh - {{ result.peakCost | currency:'EUR' }}</span>
+  </div>
+  <div class="row total">
+    <span>Total</span>
+    <span>{{ result.totalCost | currency:'EUR' }}</span>
+  </div>
+</div>
